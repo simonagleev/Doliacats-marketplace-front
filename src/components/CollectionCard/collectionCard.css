@@ -1,0 +1,63 @@
+.collection-card-container {
+    width: 205px;
+    max-width: 205px;
+    overflow: hidden;
+    border-radius: 33px;
+    position: relative;
+    min-height: 300px;
+    flex-grow: 1;
+}
+
+.collection-card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.collection-card-info-container {
+    position: absolute;
+    top: 60%;
+    z-index: 10;
+    background-color: #11005B;
+    color: #E4E4E9;
+    width: 100%;
+    border-radius: 33px 33px 0 0;
+    min-height: 300px;
+    transition: top .7s;
+}
+
+.collection-card-info-container:hover {
+    top: 17%;
+    background-color: #383186;
+    cursor: pointer;
+}
+
+.collection-card-avatar {
+    width: 100px;
+    height: 100px;
+    margin-top: -3rem;
+}
+
+.collection-card-info {
+    padding: 0;
+    margin: 0;
+}
+
+.collection-card-name {
+    line-height: 1.5rem;
+    font-weight: 900;
+}
+
+.collection-card-number {
+    color: #FFC9A1;
+    padding: 5px;
+    font-weight: 500;
+
+}
+
+.collection-card-description {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+
+}

@@ -1,0 +1,363 @@
+
+.shopping-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-page-description {
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    height: 235px;
+    border-radius: 33px;
+    margin-bottom: 1rem;
+}
+
+.shopping-page-description-bg {
+    width: 100%;
+    height: 75%;
+    max-height: 205px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shopping-page-description-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    gap: 2rem;
+}
+
+.shopping-page-description-profile {
+    background-color: #11005B;
+    border-radius: 33px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-page-description-avatar {
+    width: 100px;
+    height: 100px;
+    margin-top: -3rem;
+}
+
+.shopping-page-description-name {
+    line-height: 1.5rem;
+    font-weight: 900;
+    padding-top: 0.5rem;
+}
+
+.shopping-page-description-number {
+    color: #FFC9A1;
+    padding: 5px;
+    font-weight: 500;
+    line-height: 1rem;
+    padding-bottom: 1rem;
+}
+
+.shopping-page-description-about {
+    max-width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #11005B;
+    border-radius: 33px;
+    padding: 1rem;
+    
+}
+
+.shopping-page-description-about-left {
+    flex: 6;
+}
+
+.shopping-page-description-about-header {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.shopping-page-description-about-text {
+    font-size: 0.875rem;
+}
+
+.shopping-page-description-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.shopping-page-social-icon {
+    width: 22px;
+    height: 22;
+    margin-left: 0.875rem;
+}
+
+/* Announce */
+.announce-container {
+    display: flex;
+    align-items: center;
+    background-color: #11005B;
+    border-radius: 60px;
+    margin: 2rem 0;
+    width: 90%;
+}
+
+.announce-left {
+    background-color: #FF007D;
+    border-radius: 60px;
+    color: #110E31;
+    padding: 0.25em 1.5rem;
+    font-size: 1.8125rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.announce-text {
+    padding: 0.25em 1rem;
+    font-size: 1.375em;
+}
+
+/* Shopping container */
+.shopping-assets-container {
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.shopping-assets-filter {
+    flex: 1;
+    background-color: #11005B;
+    border-radius: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.375rem 0;
+}
+
+.filter-heading {
+    font-weight: 900;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.25rem 1rem;
+    border-radius: 33px;
+    background-color: #110E31;
+}
+
+.filter-name-input {
+    background-color: #110E31;
+    border-radius: 33px;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.filter-name-input:focus {
+    outline: 1px solid #fff;
+}
+
+.filter-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.filter-tag {
+    padding: 0.5rem 1rem;
+    background-color: #110E31;
+    border-radius: 33px;
+    font-weight: 900;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: .3s;
+    text-transform: lowercase;
+}
+
+.filter-tag:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+.filter-tag:active {
+    transform: scale(0.9);
+    transition: .3s;
+}
+
+.filter-tag:before {
+    content: "•";
+    padding-right: 3px;
+}
+
+.filter-price-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Slider price*/
+.filter-price-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+
+.filter-price-inputs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.filter-price-input {
+    width: 50%;
+    background-color: #110E31;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    padding: 0.5rem 1rem;
+    transition: .3s ease-in-out;
+}
+
+.filter-price-input:hover {
+    outline: 1px solid #fff;
+}
+
+.filter-price-slider {
+    width: 100%;
+}
+
+.filter-price-slider-status {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background: #FE3796;
+    border-radius: 30px;
+}
+
+.filter-price-slider-progress {
+    top: -2px;
+    height: 9px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    background: #FE3796;
+    border-radius: 30px;
+}
+
+.filter-price-slider-inputs-container {
+    position: relative;
+    width: 100%;
+}
+
+.filter-price-slider-input {
+    width: 100%;
+    position: absolute;
+    top: -5px;
+    height: 5px;
+    appearance: none;
+    background: none;
+    pointer-events: none;
+}
+
+.filter-price-slider-input::-webkit-slider-thumb {
+    appearance: none;
+    pointer-events: auto;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #FE3796;
+    border: 6px solid #110E31;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.filter-price-slider-input:hover::-webkit-slider-thumb {
+    background: #fff;
+}
+
+
+.filter-chains-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.filter-chain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-chain-label {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+}
+
+
+
+.shopping-assets-right-part {
+    text-align: end;
+    flex: 2;
+}
+
+.shopping-assets-options-container {
+    color: #fff;
+    width: 100%;
+    font-weight: 900;
+    font-size: 0.74rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.shopping-assetts-big-span {
+    font-size: 3.125rem;
+}
+
+.shopping-assets-options {
+    color: #CFCDEA;
+    border-radius: 33px;
+    background-color: #383186;
+    padding: 0.3rem 1.5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.shopping-assets-options:hover {
+    background-color: #110E31;
+    transition: .3s;
+
+}
+
+.shopping-assets {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}

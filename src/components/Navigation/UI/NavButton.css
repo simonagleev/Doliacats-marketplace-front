@@ -1,0 +1,33 @@
+
+
+.nav-button {
+    background-color: #383186;
+    border-radius: 45px;
+    font-weight: 900;
+    font-size: 1.25em;
+    color: #FFC9A2;
+    padding: 0.3rem 1.2rem;
+    transition: .3s;
+    outline: none;
+    text-transform: uppercase;
+    border: none;
+}
+
+.nav-button:hover {
+    background-color: #11005B;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+    border: none;
+
+} 
+.nav-button:active {
+    transform: scale(0.9);
+    background-color: #11005B;
+
+}
+.nav-button:focus, .nav-button:active {
+    transition: .3s;
+    border: none;
+    outline: 1px solid #FFC9A2;
+} 

@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    background-color: #0D0047;
+    border-radius: 33px 33px 0 0;
+    filter: drop-shadow(90px 76px 38px rgba(0, 0, 0, 0.35));
+    display: flex;
+    padding: 3rem;
+    color: #777E91;
+}
+
+.footer-contacts-header {
+    background: linear-gradient(135deg, #5300DC 0%, #FF007D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.625rem;
+    line-height: 2rem;
+}
+
+.footer-contacts-text {
+    font-size: 1rem;
+    max-width: 280px;
+}
+
+.footer-socialmedia {
+    padding: 1.5rem 0;
+}
+
+.footer-socialmedia-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 1.25rem;
+}
+
+.footer-socialmedia-icon:first-child {
+    margin-left: 0;
+}
+
+.footer-section {
+    flex: 1;
+}
+

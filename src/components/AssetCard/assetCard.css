@@ -1,0 +1,70 @@
+.asset-card-container {
+    width: 205px;
+    max-width: 205px;
+    overflow: hidden;
+    border-radius: 33px;
+    position: relative;
+    min-height: 270px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+
+.asset-card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .5s;
+}
+
+.asset-card-info-container {
+    position: absolute;
+    top: 70%;
+    z-index: 10;
+    background-color: #383186;
+    width: 100%;
+    border-radius: 33px 33px 27px 27px;
+    min-height: 81px;
+    transition: top .7s;
+    text-align: center;
+    padding: 0.5rem 1rem .75rem;
+    transition: 0.5s;
+}
+
+
+.asset-card-tags-container {
+    font-size: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.asset-card-tag {
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.asset-card-tag::before {
+    content: "•";
+    padding-right: 3px;
+}
+
+.asset-card-text-container {
+    text-align: start;
+}
+
+.asset-card-name {
+    font-weight: 900;
+    font-size: 1.3750rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+.asset-card-collection {
+    color: #FFC9A1;
+    font-size: 1rem;
+    line-height: 1.125rem;
+}
